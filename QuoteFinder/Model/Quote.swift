@@ -15,18 +15,10 @@ struct Quote: Identifiable, Codable {
         
 }
  
-// Create an example joke for testing purposes
+// Create an example Quote for testing purposes
 let exampleQuote = Quote(
     content: "Success is not how high you have climbed, but how you make a positive difference to the world.",
     author: "Roy T. Bennett",
     tages: "success, inspirational",
     id: "XJa_GGo7x"
 )
-
-
-//{
-//  "_id": "XJa_GGo7x",
-//  "content": "Success is not how high you have climbed, but how you make a positive difference to the world.",
-//  "author": "Roy T. Bennett",
-//  "tags": ["success", "inspirational"]
-//}
